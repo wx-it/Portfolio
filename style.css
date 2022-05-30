@@ -291,14 +291,3 @@ body{
 }
 
 
-@media (max-width:500px) {
-    .pr:focus > .project-info:focus{
-        opacity: 1;
-  }
-  .footer-container{
-      justify-content: center;
-      text-align: center;
-      gap: 1rem;
-      height: 150px;
-  }
-}
