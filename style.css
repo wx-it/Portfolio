@@ -291,3 +291,11 @@ body{
 }
 
 
+@media (max-width:500px) {
+  .footer-container{
+      justify-content: center;
+      text-align: center;
+      gap: 1rem;
+      height: 150px;
+  }
+}
