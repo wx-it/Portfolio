@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 2rem;
+}
+nav button {
+  border: none;
+  background-color: transparent;
+}
+nav .nav-toggle {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 5rem 6rem 0 3rem;
+  background-color: white;
+  z-index: 4;
+  transform: translateX(100%);
+  transition: all 0.7s ease;
+}
+nav .nav-toggle .close-btn {
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+}
+nav .nav-toggle .links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+nav .nav-toggle .links a {
+  margin: 0.5rem 0;
+  font-size: 16px;
+}
+nav .nav-toggle .email-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 150px;
+  height: 50px;
+  background-color: #670000;
+  margin: 0.5rem 0;
+}
+nav .nav-toggle .email-link a {
+  color: white;
+  font-size: 16px;
+}
+nav .nav-toggle[data-visibility=true] {
+  transform: translateX(0%);
+}
+
+.main {
+  text-align: center;
+  margin: 3rem 0;
+  padding: 5rem 1rem;
+}
+.main h1 {
+  font-size: 42px;
+}
+.main h2 {
+  margin: 1rem 0;
+}
+
+.about-me {
+  background-color: white;
+  padding: 2rem 1rem;
+}
+.about-me h2 {
+  margin: 1rem 0;
+  font-size: 24px;
+}
+.about-me p {
+  font-weight: 300;
+}/*# sourceMappingURL=index.css.map */
