@@ -37,3 +37,6 @@ function closeNav() {
 }
 
 closeBtn.addEventListener('click', closeNav);
+
+
+// carousel 

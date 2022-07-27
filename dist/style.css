@@ -30,6 +30,7 @@ p {
   letter-spacing: 0.05rem;
   line-height: 1.7;
   font-size: 16px;
+  font-weight: 300;
 }
 
 nav {
@@ -106,6 +107,68 @@ nav .nav-toggle[data-visibility=true] {
   margin: 1rem 0;
   font-size: 24px;
 }
-.about-me p {
-  font-weight: 300;
+
+.services {
+  border: 1px black solid;
+  background-color: #670000;
+  padding: 2rem 1rem;
+}
+.services h2 {
+  color: white;
+  margin: 1rem 0;
+  padding: 0 1rem;
+  font-size: 24px;
+}
+.services .service {
+  margin: 2rem 0;
+  padding: 0rem 1rem 2rem 1rem;
+  border-bottom: 1px rgba(255, 255, 255, 0.185) solid;
+}
+.services .service h3 {
+  color: white;
+  margin: 1rem 0;
+}
+.services .service p {
+  color: white;
+}
+
+.skills {
+  border: 1px black solid;
+  position: relative;
+  width: 100vw;
+  height: 500px;
+}
+.skills .block {
+  overflow: hidden;
+  width: 800px;
+  margin: 50px auto;
+  background: #fff;
+}
+.skills .animation {
+  width: auto;
+  height: 100px;
+  font-size: 0px;
+}
+.skills .animation div {
+  display: inline-block;
+  width: auto;
+  float: none;
+  padding: 0 10px;
+}
+.skills #top h2, .skills #middle h2, .skills #bottom h2 {
+  position: relative;
+  display: inlne-block;
+  font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: #1d1d35;
+  margin-top: 10px;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+.skills #top:hover h2, .skills #middle:hover h2, .skills #bottom:hover h2 {
+  opacity: 1;
 }/*# sourceMappingURL=style.css.map */
