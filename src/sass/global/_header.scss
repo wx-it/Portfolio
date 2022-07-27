@@ -1,0 +1,10 @@
+@use '../utils' as u;
+
+h1, h2, h3, h4, h5{
+    margin: 0;
+    padding: 0;
+    color: u.$red-bg-text;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 400;
+}

@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+*, body, html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #FFEFAE;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  padding: 0;
+  color: #670000;
+  margin-top: 0px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.05rem;
+  line-height: 1.7;
+  font-size: 16px;
+  font-weight: 300;
+}/*# sourceMappingURL=index.css.map */top: 2rem;
+}
+nav .nav-toggle .links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+nav .nav-toggle .links a {
+  margin: 0.5rem 0;
+  font-size: 16px;
+}
+nav .nav-toggle .email-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 150px;
+  height: 50px;
+  background-color: #670000;
+  margin: 0.5rem 0;
+}
+nav .nav-toggle .email-link a {
+  color: white;
+  font-size: 16px;
+}
+nav .nav-toggle[data-visibility=true] {
+  transform: translateX(0%);
+}
+
+.main {
+  text-align: center;
+  margin: 3rem 0;
+  padding: 5rem 1rem;
+}
+.main h1 {
+  font-size: 42px;
+}
+.main h2 {
+  margin: 1rem 0;
+}
+
+.about-me {
+  background-color: white;
+  padding: 2rem 1rem;
+}
+.about-me h2 {
+  margin: 1rem 0;
+  font-size: 24px;
+}
+
+.services {
+  border: 1px black solid;
+  background-color: #670000;
+  padding: 2rem 1rem;
+}
+.services h2 {
+  color: white;
+  margin: 1rem 0;
+  padding: 0 1rem;
+  font-size: 24px;
+}
+.services .service {
+  margin: 2rem 0;
+  padding: 0rem 1rem 2rem 1rem;
+  border-bottom: 1px rgba(255, 255, 255, 0.185) solid;
+}
+.services .service h3 {
+  color: white;
+  margin: 1rem 0;
+}
+.services .service p {
+  color: white;
+}
+
+.skills {
+  border: 1px black solid;
+  position: relative;
+  width: 100vw;
+  height: 500px;
+}
+.skills .block {
+  overflow: hidden;
+  width: 800px;
+  margin: 50px auto;
+  background: #fff;
+}
+.skills .animation {
+  width: auto;
+  height: 100px;
+  font-size: 0px;
+}
+.skills .animation div {
+  display: inline-block;
+  width: auto;
+  float: none;
+  padding: 0 10px;
+}
+.skills #top h2, .skills #middle h2, .skills #bottom h2 {
+  position: relative;
+  display: inlne-block;
+  font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: #1d1d35;
+  margin-top: 10px;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+.skills #top:hover h2, .skills #middle:hover h2, .skills #bottom:hover h2 {
+  opacity: 1;
+}/*# sourceMappingURL=index.css.map */
