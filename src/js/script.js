@@ -39,4 +39,16 @@ function closeNav() {
 closeBtn.addEventListener('click', closeNav);
 
 
-// carousel 
+// add style to navbar when scrolling 
+
+let myNav = document.querySelector('nav');
+window.onscroll = function () { 
+    "use strict";
+    if (window.scrollY >= 100 ) {
+        myNav.classList.add("scroll");
+    } 
+    else {
+        myNav.classList.remove("scroll");
+    }
+};
+  
