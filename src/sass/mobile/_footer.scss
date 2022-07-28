@@ -1,0 +1,76 @@
+@use '../utils' as u;
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: u.$red-bg-text;
+    padding: 3rem 2rem;
+
+    .more{
+        h2{
+            color: u.$bg;
+        }
+    
+        button{
+            border: none;
+            background-color: u.$bg;
+            padding: 1rem 2.5rem;
+            margin: 2rem 0;
+
+            a{
+                color: u.$red-bg-text;
+                font-size: 16px;
+            }
+        }
+    }
+
+    .contact-form{
+        h3{
+            color: u.$bg;
+        }
+
+        form{
+            input{
+                background-color: transparent;
+                color: u.$bg;
+                font-size: 16px;
+                margin: 1rem 0;
+                width: 100%;
+                border: 1px #853023 solid;
+                padding: 1rem 2rem;
+                &:focus{
+                    outline: none;
+                }
+            }
+
+            .message{
+                padding-bottom: 8rem;
+            }
+
+            button{
+                width: 100%;
+                padding: 1rem 0;
+                border: none;
+                background-color: u.$bg;
+                color: u.$red-bg-text;
+                font-size: 18px;
+            }
+        }
+    }
+
+
+    .socials{
+        margin: 2rem 0;
+        a{
+            color: u.$bg;
+            margin-right: 1rem;
+        }
+    }
+
+    p{
+        color: u.$bg;
+        font-size: 12px;
+        font-weight: 200;
+        text-align: center;
+    }
+}

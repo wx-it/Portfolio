@@ -127,17 +127,34 @@
     </main>
 
     <footer>
-      <h2>Do you want to know more about me?</h2>
-      <button>Resume</button>
+      <div class="more">
+        <h2>Do you want to know more about me?</h2>
+        <button>
+          <a href="">Resume</a>
+        </button>
+      </div>
       <div class="contact-form">
+        <h3>Contact me</h3>
         <form action="">
           <input type="text" placeholder="Name" />
           <input type="text" placeholder="Email" name="email" />
           <input type="text" placeholder="Subject" name="email" />
-          <input type="text" placeholder="Message" name="message" />
+          <input
+            class="message"
+            type="text"
+            placeholder="Message"
+            name="message"
+          />
           <button type="submit">Send Message</button>
         </form>
+
+        <div class="socials">
+          <a class="underline" href="">Twitter.</a>
+          <a class="underline" href="">GitHub.</a>
+        </div>
       </div>
+
+      <p>Copyright ©2022 All rights reserved | Created by @wx-it</p>
     </footer>
 
     <script src="/src/js/script.js"></script>
