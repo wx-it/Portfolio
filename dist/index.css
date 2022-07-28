@@ -82,7 +82,7 @@ nav .nav-toggle[data-visibility=true] {
 
 .about-me {
   background-color: white;
-  padding: 2rem 1rem;
+  padding: 2rem;
 }
 .about-me h2 {
   margin: 1rem 0;
@@ -112,79 +112,18 @@ nav .nav-toggle[data-visibility=true] {
 }
 
 .skills {
-  border: 1px black solid;
   position: relative;
   width: 100vw;
-  height: 500px;
-  padding: 1rem 2rem;
+  padding: 2rem;
 }
-.skills .block {
-  width: 100%;
-  margin: 3rem auto;
-  overflow: hidden;
+.skills ul {
+  list-style-image: url("/svg/check.svg");
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 0.5rem;
+  margin: 2rem;
 }
-.skills .animation {
-  width: auto;
-  width: 1200px;
-  position: relative;
-  -webkit-animation: slide 5s ease infinite;
-          animation: slide 5s ease infinite;
-}
-.skills .animation div {
-  display: inline-block;
-  width: auto;
-  float: none;
-  padding: 0 10px;
-}
-.skills .animation div h2 {
-  position: relative;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 12px;
-  text-align: center;
-  margin-top: 10px;
-  opacity: 0;
-  font-weight: 500;
-  transition: all 0.5s ease;
-}
-.skills .animation div h2:hover {
-  opacity: 1;
-}
-.skills .animation:hover {
-  -webkit-animation-play-state: paused;
-          animation-play-state: paused;
-}
-@-webkit-keyframes slide {
-  0% {
-    left: 0;
-  }
-  25% {
-    left: -300px;
-  }
-  50% {
-    left: -600px;
-  }
-  75% {
-    left: -900px;
-  }
-  100% {
-    left: 0;
-  }
-}
-@keyframes slide {
-  0% {
-    left: 0;
-  }
-  25% {
-    left: -300px;
-  }
-  50% {
-    left: -600px;
-  }
-  75% {
-    left: -900px;
-  }
-  100% {
-    left: 0;
-  }
+.skills ul li {
+  font-size: 16px;
+  font-weight: 600;
 }/*# sourceMappingURL=index.css.map */

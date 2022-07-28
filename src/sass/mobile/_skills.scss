@@ -1,57 +1,18 @@
 .skills{
-    border: 1px black solid;
     position: relative;
     width: 100vw;
-    height: 500px;
-    padding: 1rem 2rem;
-    .block {
-        width: 100%;
-        margin:3rem auto;
-        overflow:hidden;
-      }
-      .animation {
-        width: auto;
-        width:1200px;
-        position:relative;
-        animation: slide 5s ease infinite;
-        
-        div {
-          display: inline-block;
-          width: auto;
-          float: none;
-          padding: 0 10px;
+    padding: 2rem;
 
+    ul{
+        list-style-image: url("/svg/check.svg");
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        gap: .5rem;
+        margin: 2rem;
 
-          h2 {
-            position: relative;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            font-size: 12px;
-            text-align: center;
-            margin-top: 10px;
-            opacity: 0;
-            font-weight: 500;
-            transition: all .5s ease;
-          }
-         h2:hover {
-            opacity: 1;
-          }
-
+        li{
+            font-size: 16px;
+            font-weight: 600;
         }
-      }
-
-      .animation:hover{
-        animation-play-state:paused;
-      }
-
-      @keyframes slide {
-        0% {left:0;}
-        25% {left:-300px;}
-        50% {left:-600px;}
-        75% {left:-900px;}
-        100% {left:0;}
-      }
-
-
- 
+    }
 }
