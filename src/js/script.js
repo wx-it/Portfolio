@@ -41,14 +41,14 @@ closeBtn.addEventListener('click', closeNav);
 
 // add style to navbar when scrolling 
 
-let myNav = document.querySelector('nav');
+let navbar = document.querySelector('nav');
 window.onscroll = function () { 
     "use strict";
     if (window.scrollY >= 100 ) {
-        myNav.classList.add("scroll");
+        navbar.classList.add("scroll");
     } 
     else {
-        myNav.classList.remove("scroll");
+        navbar.classList.remove("scroll");
     }
 };
   

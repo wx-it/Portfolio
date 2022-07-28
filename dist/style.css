@@ -19,6 +19,10 @@ h1, h2, h3, h4, h5 {
   font-weight: 400;
 }
 
+h2 {
+  font-size: 24px;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -122,11 +126,9 @@ nav .nav-toggle[data-visibility=true] {
 }
 .about-me h2 {
   margin: 1rem 0;
-  font-size: 24px;
 }
 
 .services {
-  border: 1px black solid;
   background-color: #670000;
   padding: 2rem 1rem;
 }
@@ -154,17 +156,19 @@ nav .nav-toggle[data-visibility=true] {
   position: relative;
   width: 100vw;
   height: 500px;
+  padding: 1rem 2rem;
 }
 .skills .block {
+  width: 100%;
+  margin: 3rem auto;
   overflow: hidden;
-  width: 800px;
-  margin: 50px auto;
-  background: #fff;
 }
 .skills .animation {
   width: auto;
-  height: 100px;
-  font-size: 0px;
+  width: 1200px;
+  position: relative;
+  -webkit-animation: slide 5s ease infinite;
+          animation: slide 5s ease infinite;
 }
 .skills .animation div {
   display: inline-block;
@@ -172,20 +176,55 @@ nav .nav-toggle[data-visibility=true] {
   float: none;
   padding: 0 10px;
 }
-.skills #top h2, .skills #middle h2, .skills #bottom h2 {
+.skills .animation div h2 {
   position: relative;
-  display: inlne-block;
-  font-family: "Barlow Condensed", sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-size: 16px;
-  font-weight: bold;
+  font-size: 12px;
   text-align: center;
-  color: #1d1d35;
   margin-top: 10px;
   opacity: 0;
+  font-weight: 500;
   transition: all 0.5s ease;
 }
-.skills #top:hover h2, .skills #middle:hover h2, .skills #bottom:hover h2 {
+.skills .animation div h2:hover {
   opacity: 1;
+}
+.skills .animation:hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+@-webkit-keyframes slide {
+  0% {
+    left: 0;
+  }
+  25% {
+    left: -300px;
+  }
+  50% {
+    left: -600px;
+  }
+  75% {
+    left: -900px;
+  }
+  100% {
+    left: 0;
+  }
+}
+@keyframes slide {
+  0% {
+    left: 0;
+  }
+  25% {
+    left: -300px;
+  }
+  50% {
+    left: -600px;
+  }
+  75% {
+    left: -900px;
+  }
+  100% {
+    left: 0;
+  }
 }/*# sourceMappingURL=style.css.map */
