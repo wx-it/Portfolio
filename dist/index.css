@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");/*# sourceMappingURL=index.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+.scroll {
+  background-color: white;
   box-shadow: 0 2px 10px 2px rgba(0, 0, 0, 0.1);
   transition: all 0.5s ease;
 }
@@ -10,6 +12,7 @@ nav {
   position: fixed;
   width: 100%;
   top: 0;
+  z-index: 2;
 }
 nav img {
   margin: 0 2rem;
@@ -54,8 +57,12 @@ nav .nav-toggle .email-link {
   justify-content: space-evenly;
   width: 150px;
   height: 50px;
-  background-color: #670000;
+  background: linear-gradient(to right, #670000, rgb(163, 28, 28));
   margin: 0.5rem 0;
+}
+nav .nav-toggle .email-link:hover img {
+  transition: all 0.5s ease;
+  transform: translateX(5px);
 }
 nav .nav-toggle .email-link a {
   color: white;
@@ -126,4 +133,44 @@ nav .nav-toggle[data-visibility=true] {
 .skills ul li {
   font-size: 16px;
   font-weight: 600;
+}
+
+.projects {
+  padding: 2rem;
+  background-color: #f7f7fd;
+}
+.projects .project {
+  margin: 2rem 0;
+}
+.projects .project h3 {
+  font-weight: 600;
+  margin: 1rem 0;
+}
+.projects .project__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  background-color: white;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.projects .project__content img {
+  width: 100%;
+}
+.projects .project__content p {
+  margin: 1rem 0;
+  padding: 1rem;
+  font-size: 13px;
+}
+.projects .project__content .links {
+  padding: 1rem;
+}
+.projects .project__content .links a {
+  padding: 1rem;
+  margin: 0 1rem;
+  color: white;
+  font-weight: 500;
+  background-color: #670000;
 }/*# sourceMappingURL=index.css.map */
