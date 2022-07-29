@@ -188,7 +188,7 @@ nav .desktop {
   padding: 2rem;
 }
 .skills ul {
-  list-style-image: url("/svg/check.svg");
+  list-style-type: none;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   gap: 0.5rem;
@@ -197,9 +197,16 @@ nav .desktop {
   text-align: center;
 }
 .skills ul li {
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 40px;
   color: #670000;
+}
+.skills ul .tailwindcss {
+  place-self: center;
+  width: 45px;
+  margin-top: -11px;
+}
+.skills ul .tailwindcss img {
+  width: 45px;
 }
 
 .projects {
@@ -375,5 +382,17 @@ footer p {
   }
   .services__grid .service:last-child {
     border: none;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .skills ul li {
+    font-size: 60px;
+  }
+  .skills ul .tailwindcss {
+    width: 70px;
+  }
+  .skills ul .tailwindcss img {
+    width: 70px;
   }
 }/*# sourceMappingURL=style.css.map */

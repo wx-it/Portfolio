@@ -2,5 +2,19 @@
 
 .skills{
     @include u.breakpoints(desktop){
+
+        ul{
+            li{
+                font-size: 60px;
+            }
+
+            .tailwindcss{
+                width: 70px;
+
+                img{
+                    width: 70px;
+                }
+            }
+        }
     }
 }
