@@ -1,0 +1,20 @@
+@use '../utils' as u;
+
+.services{
+    @include u.breakpoints(desktop){
+      &__grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+
+        .service{
+            border-bottom: none;
+            border-right: 1px rgba(255, 255, 255, 0.185) solid;
+            padding: 0rem 3rem 2rem 3rem;
+            &:last-child{
+                border: none;
+            }
+        }
+
+      }
+    }
+}

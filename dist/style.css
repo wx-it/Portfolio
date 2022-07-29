@@ -25,7 +25,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
 }
 
 body {
@@ -165,7 +164,7 @@ nav .desktop {
   padding: 2rem 1rem;
 }
 .services h2 {
-  color: white;
+  color: #FFEFAE;
   margin: 1rem 0;
   padding: 0 1rem;
   font-size: 24px;
@@ -176,7 +175,7 @@ nav .desktop {
   border-bottom: 1px rgba(255, 255, 255, 0.185) solid;
 }
 .services .service h3 {
-  color: white;
+  color: #FFEFAE;
   margin: 1rem 0;
 }
 .services .service p {
@@ -193,11 +192,14 @@ nav .desktop {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   gap: 0.5rem;
-  margin: 2rem;
+  padding: 3rem 2rem;
+  justify-content: center;
+  text-align: center;
 }
 .skills ul li {
   font-size: 16px;
   font-weight: 600;
+  color: #670000;
 }
 
 .projects {
@@ -346,5 +348,32 @@ footer p {
   }
   .main h1 {
     font-size: 74px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .about-me {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .about-me h2 {
+    font-size: 62px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .services__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+  .services__grid .service {
+    border-bottom: none;
+    border-right: 1px rgba(255, 255, 255, 0.185) solid;
+    padding: 0rem 3rem 2rem 3rem;
+  }
+  .services__grid .service:last-child {
+    border: none;
   }
 }/*# sourceMappingURL=style.css.map */

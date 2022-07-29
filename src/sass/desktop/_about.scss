@@ -1,0 +1,14 @@
+@use '../utils' as u;
+
+.about-me{
+    @include u.breakpoints(desktop){
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        h2{
+            font-size: 62px;
+        }
+    }
+}

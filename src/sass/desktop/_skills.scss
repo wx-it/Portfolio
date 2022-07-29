@@ -1,0 +1,6 @@
+@use '../utils' as u;
+
+.skills{
+    @include u.breakpoints(desktop){
+    }
+}
