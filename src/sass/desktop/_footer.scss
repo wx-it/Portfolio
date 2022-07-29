@@ -1,0 +1,31 @@
+@use '../utils' as u;
+
+
+footer{
+    @include u.breakpoints(desktop){
+
+        .more{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 2rem 3rem;
+            h2{
+                width: 500px;
+            }
+        }
+
+        .contact-form{
+            margin: 2rem 3rem;
+
+            h3{
+                font-size: 32px;
+            }
+
+            .contact-info{
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                gap: 1rem;
+            }
+        }
+    }
+}

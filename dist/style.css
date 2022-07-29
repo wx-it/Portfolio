@@ -411,4 +411,27 @@ footer p {
   .projects__grid .project h3 {
     font-size: 24px;
   }
+}
+
+@media only screen and (min-width: 900px) {
+  footer .more {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 3rem;
+  }
+  footer .more h2 {
+    width: 500px;
+  }
+  footer .contact-form {
+    margin: 2rem 3rem;
+  }
+  footer .contact-form h3 {
+    font-size: 32px;
+  }
+  footer .contact-form .contact-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+  }
 }/*# sourceMappingURL=style.css.map */
