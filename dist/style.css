@@ -400,4 +400,15 @@ footer p {
   .skills ul .tailwindcss img {
     width: 70px;
   }
+}
+
+@media only screen and (min-width: 900px) {
+  .projects__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+  .projects__grid .project h3 {
+    font-size: 24px;
+  }
 }/*# sourceMappingURL=style.css.map */

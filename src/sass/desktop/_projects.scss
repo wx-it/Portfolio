@@ -1,0 +1,18 @@
+@use '../utils' as u;
+
+.projects{
+    @include u.breakpoints(desktop){
+        &__grid{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            .project{
+
+                h3{
+                    font-size: 24px;
+                }
+
+            }
+        }
+    }
+}
