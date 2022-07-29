@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5 {
 h2 {
   font-size: 24px;
 }
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1000px) {
   h2 {
     font-size: 48px;
   }
@@ -197,7 +197,7 @@ nav .desktop {
   list-style-type: none;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  gap: 0.5rem;
+  gap: 2rem;
   padding: 4rem 2rem;
   justify-content: center;
   text-align: center;
@@ -314,7 +314,7 @@ footer p {
   text-align: center;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1000px) {
   nav {
     padding: 15px 90px;
   }
@@ -351,7 +351,7 @@ footer p {
   }
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1000px) {
   .main {
     height: 100vh;
     display: flex;
@@ -364,7 +364,7 @@ footer p {
   }
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1000px) {
   .about-me {
     height: 50vh;
     display: flex;
@@ -373,7 +373,7 @@ footer p {
   }
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1000px) {
   .services h2 {
     font-size: 48px;
   }
@@ -391,7 +391,7 @@ footer p {
   }
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1000px) {
   .skills ul li {
     font-size: 60px;
   }
@@ -403,7 +403,7 @@ footer p {
   }
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1000px) {
   .projects__grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -414,7 +414,7 @@ footer p {
   }
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1000px) {
   footer .more {
     display: flex;
     justify-content: space-between;
