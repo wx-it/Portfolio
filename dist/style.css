@@ -25,6 +25,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 body {
@@ -134,6 +135,9 @@ nav .nav-toggle .email-link img {
 }
 nav .nav-toggle[data-visibility=true] {
   transform: translateX(0%);
+}
+nav .desktop {
+  display: none;
 }
 
 .main {
@@ -293,4 +297,54 @@ footer p {
   font-size: 12px;
   font-weight: 200;
   text-align: center;
+}
+
+@media only screen and (min-width: 900px) {
+  nav {
+    padding: 15px 90px;
+  }
+  nav button {
+    display: none;
+  }
+  nav .desktop {
+    display: block;
+  }
+  nav .desktop-links a {
+    margin: 0 2rem;
+    color: #670000;
+    font-size: 16px;
+  }
+  nav .email-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 150px;
+    height: 50px;
+    background: linear-gradient(to right, #670000, rgb(163, 28, 28));
+    margin: 0.5rem 0;
+  }
+  nav .email-link:hover img {
+    transition: all 0.5s ease;
+    transform: translateX(5px);
+  }
+  nav .email-link a {
+    color: white;
+    font-size: 16px;
+  }
+  nav .email-link img {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .main h1 {
+    font-size: 74px;
+  }
 }/*# sourceMappingURL=style.css.map */
