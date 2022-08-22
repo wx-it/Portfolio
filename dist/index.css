@@ -203,11 +203,14 @@ nav .desktop {
   overflow: hidden;
 }
 .projects .project__content .links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
   padding: 1rem;
 }
 .projects .project__content .links a {
   padding: 1rem;
-  margin: 0 1rem;
   color: white;
   font-weight: 500;
   background-color: #670000;

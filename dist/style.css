@@ -250,11 +250,14 @@ nav .desktop {
   overflow: hidden;
 }
 .projects .project__content .links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
   padding: 1rem;
 }
 .projects .project__content .links a {
   padding: 1rem;
-  margin: 0 1rem;
   color: white;
   font-weight: 500;
   background-color: #670000;
@@ -420,6 +423,14 @@ footer p {
   .projects__grid .project img {
     width: 90%;
     height: 300px;
+  }
+  .projects__grid .project .links {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+  }
+  .projects__grid .project .links a {
+    margin: 0 1rem;
   }
 }
 

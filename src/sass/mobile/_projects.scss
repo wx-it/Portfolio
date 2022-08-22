@@ -36,11 +36,15 @@
             }
 
             .links{
+                display: flex;
+                justify-content: center;
+                gap: 1rem;
+                width: 100%;
                 padding: 1rem;
+                
 
                 a{
                     padding: 1rem;
-                    margin: 0 1rem;
                     color: white;
                     font-weight: 500;
                     background-color: u.$red-bg-text;
