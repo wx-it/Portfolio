@@ -1,191 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link
-      rel="stylesheet"
-      href="//use.fontawesome.com/releases/v5.0.7/css/all.css"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="dist/style.css" />
+  <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css" />
 
-    <title>Protfolio</title>
-  </head>
-  <body>
-    <header>
-      <nav>
-        <img src="svg/_double arrow_.svg" alt="" />
-        <button id="menu-btn" aria-controls="nav-toggle">
-          <img src="svg/_menu hambuger_.svg" alt="" />
+  <link rel="stylesheet" href="dist/style.css" />
+
+  <title>Protfolio</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <img src="svg/_double arrow_.svg" alt="" />
+      <button id="menu-btn" aria-controls="nav-toggle">
+        <img src="svg/_menu hambuger_.svg" alt="" />
+      </button>
+      <div class="nav-toggle" id="nav-toggle" data-visibility="false">
+        <button class="close-btn" id="close-btn" aria-controls="nav-toggle">
+          <img src="svg/close.svg" alt="" />
         </button>
-        <div class="nav-toggle" id="nav-toggle" data-visibility="false">
-          <button class="close-btn" id="close-btn" aria-controls="nav-toggle">
-            <img src="svg/close.svg" alt="" />
-          </button>
-          <div class="links" id="links">
-            <a href="">Home</a>
-            <a href="#about">About</a>
-            <a href="#projects">Portfolio</a>
-            <a href="">Blog</a>
-            <a href="">Contact</a>
-          </div>
-
-          <div class="email-link">
-            <a href="mailto:me">Let's Talk</a>
-            <img src="svg/arrow.svg" alt="" />
-          </div>
-        </div>
-        <div class="desktop-links desktop">
+        <div class="links" id="links">
           <a href="">Home</a>
           <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-          <a href="">Contact</a>
-          <a target="_blank" href="https://liix.hashnode.dev">Blog</a>
+          <a href="#projects">Portfolio</a>
+          <a href="https://liix.hashnode.dev">Blog</a>
+          <a href="#contact">Contact</a>
         </div>
 
-        <div class="email-link desktop">
+        <div class="email-link">
           <a href="mailto:me">Let's Talk</a>
           <img src="svg/arrow.svg" alt="" />
         </div>
-      </nav>
-    </header>
-
-    <main>
-      <div class="main">
-        <h1>Wanna Create Amazing Stuff ?</h1>
-        <h2>Front-End Web Developer</h2>
+      </div>
+      <div class="desktop-links desktop">
+        <a href="">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a target="_blank" href="https://liix.hashnode.dev">Blog</a>
       </div>
 
-      <div class="about-me" id="about">
-        <h2>About.</h2>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci
-          doloribus laudantium blanditiis itaque, rem laboriosam velit suscipit
-          numquam, ipsum voluptas at. Voluptas itaque repudiandae autem rem
-          quidem assumenda labore quis.
-        </p>
+      <div class="email-link desktop">
+        <a href="mailto:me">Let's Talk</a>
+        <img src="svg/arrow.svg" alt="" />
       </div>
+    </nav>
+  </header>
 
-      <div class="services">
-        <h2>My Services</h2>
-        <div class="services__grid">
-          <div class="service">
-            <h3>Lorem, ipsum.</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem,
-              rerum.
-            </p>
-          </div>
+  <main>
+    <div class="main">
+      <h1>Wanna Create Amazing Stuff ?</h1>
+      <h2>Front-End Web Developer</h2>
+    </div>
 
-          <div class="service">
-            <h3>Lorem, ipsum.</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem,
-              rerum.
-            </p>
-          </div>
+    <div class="about-me" id="about">
+      <h2>About.</h2>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+        doloribus laudantium blanditiis itaque, rem laboriosam velit suscipit
+        numquam, ipsum voluptas at. Voluptas itaque repudiandae autem rem
+        quidem assumenda labore quis.
+      </p>
+    </div>
 
-          <div class="service">
-            <h3>Lorem, ipsum.</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem,
-              rerum.
-            </p>
-          </div>
+    <div class="services">
+      <h2>My Services</h2>
+      <div class="services__grid">
+        <div class="service">
+          <h3>Lorem, ipsum.</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem,
+            rerum.
+          </p>
+        </div>
+
+        <div class="service">
+          <h3>Lorem, ipsum.</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem,
+            rerum.
+          </p>
+        </div>
+
+        <div class="service">
+          <h3>Lorem, ipsum.</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem,
+            rerum.
+          </p>
         </div>
       </div>
+    </div>
 
-      <div class="skills">
-        <h2>My Skills</h2>
-        <ul>
-          <li class="fab fa-html5"></li>
-          <li class="fab fa-css3-alt"></li>
-          <li class="tailwindcss">
-            <img src="/svg/icon _tailwindcss_.svg" alt="" />
-          </li>
-          <li class="fab fa-js"></li>
-          <li class="fab fa-sass"></li>
-        </ul>
-      </div>
+    <div class="skills">
+      <h2>My Skills</h2>
+      <ul>
+        <li class="fab fa-html5"></li>
+        <li class="fab fa-css3-alt"></li>
+        <li class="tailwindcss">
+          <img src="/svg/icon _tailwindcss_.svg" alt="" />
+        </li>
+        <li class="fab fa-js"></li>
+        <li class="fab fa-sass"></li>
+      </ul>
+    </div>
 
-      <div class="projects" id="projects">
-        <h2>Projects</h2>
-        <div class="projects__grid">
-          <div class="project">
-            <h3>e-Commerce webpage</h3>
-            <div class="project__content">
-              <img src="svg/desktop-design.jpg" alt="" />
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Incidunt cum possimus voluptates aut fuga in.
-              </p>
+    <div class="projects" id="projects">
+      <h2>Projects</h2>
+      <div class="projects__grid">
+        <div class="project">
+          <h3>e-Commerce webpage</h3>
+          <div class="project__content">
+            <img src="svg/desktop-design.jpg" alt="" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Incidunt cum possimus voluptates aut fuga in.
+            </p>
 
-              <div class="links">
-                <a href="">Source code</a>
-                <a href="">Live demo</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="project">
-            <h3>e-Commerce webpage</h3>
-            <div class="project__content">
-              <img src="svg/desktop-design.jpg" alt="" />
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Incidunt cum possimus voluptates aut fuga in.
-              </p>
-
-              <div class="links">
-                <a href="">Source code</a>
-                <a href="">Live demo</a>
-              </div>
+            <div class="links">
+              <a href="">Source code</a>
+              <a href="">Live demo</a>
             </div>
           </div>
         </div>
-      </div>
-    </main>
 
-    <footer>
-      <div class="more">
-        <h2>Do you want to know more about me?</h2>
-        <button>
-          <a href="">Resume</a>
-        </button>
-      </div>
-      <div class="contact-form">
-        <h3>Contact me</h3>
-        <form action="">
-          <div class="contact-info">
-            <input type="text" placeholder="Name" />
-            <input type="text" placeholder="Email" name="email" />
-            <input type="text" placeholder="Subject" name="email" />
+        <div class="project">
+          <h3>e-Commerce webpage</h3>
+          <div class="project__content">
+            <img src="svg/desktop-design.jpg" alt="" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Incidunt cum possimus voluptates aut fuga in.
+            </p>
+
+            <div class="links">
+              <a href="">Source code</a>
+              <a href="">Live demo</a>
+            </div>
           </div>
-          <input
-            class="message"
-            type="text"
-            placeholder="Message"
-            name="message"
-          />
-          <button type="submit">Send Message</button>
-        </form>
-
-        <div class="socials">
-          <a class="underline" target="_blank" href="https://twitter.com/home"
-            >Twitter.</a
-          >
-          <a class="underline" target="_blank" href="https://github.com/wx-it"
-            >GitHub.</a
-          >
         </div>
       </div>
+    </div>
+  </main>
 
-      <p>Copyright ©2022 All rights reserved | Created by @wx-it</p>
-    </footer>
+  <footer>
+    <div class="more">
+      <h2>Do you want to know more about me?</h2>
+      <button>
+        <a href="">Resume</a>
+      </button>
+    </div>
+    <div class="contact-form" id="contact">
+      <h3>Contact me</h3>
+      <form action="">
+        <div class="contact-info">
+          <input type="text" placeholder="Name" />
+          <input type="text" placeholder="Email" name="email" />
+          <input type="text" placeholder="Subject" name="email" />
+        </div>
+        <input class="message" type="text" placeholder="Message" name="message" />
+        <button type="submit">Send Message</button>
+      </form>
 
-    <script src="/src/js/script.js"></script>
-  </body>
+      <div class="socials">
+        <a class="underline" target="_blank" href="https://twitter.com/home">Twitter.</a>
+        <a class="underline" target="_blank" href="https://github.com/wx-it">GitHub.</a>
+      </div>
+    </div>
+
+    <p>Copyright ©2022 All rights reserved | Created by @wx-it</p>
+  </footer>
+
+  <script src="/src/js/script.js"></script>
+</body>
+
 </html>
