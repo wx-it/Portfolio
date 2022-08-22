@@ -246,8 +246,6 @@ nav .desktop {
   margin: 1rem 0;
   padding: 1rem;
   font-size: 13px;
-  height: 150px;
-  overflow: hidden;
 }
 .projects .project__content .links {
   display: flex;
@@ -423,6 +421,10 @@ footer p {
   .projects__grid .project img {
     width: 90%;
     height: 300px;
+  }
+  .projects__grid .project p {
+    height: 150px;
+    overflow: hidden;
   }
   .projects__grid .project .links {
     display: flex;
