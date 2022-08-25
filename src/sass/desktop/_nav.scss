@@ -27,8 +27,15 @@ nav{
         justify-content: space-evenly;
         width: 150px;
         height: 50px;
-        background: linear-gradient(to right, u.$red-bg-text, rgb(163, 28, 28));
+        background: linear-gradient(to right, u.$red-bg-text,rgb(185, 32, 32),rgb(185, 32, 32), u.$red-bg-text);
         margin: .5rem 0;
+        background-size: 300% 100%;
+
+        
+        &:hover{
+            background-position: 100% 0;
+            transition: all 0.5s ease;
+          }
 
         &:hover img{
             transition: all 0.5s ease;
