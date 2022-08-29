@@ -21,6 +21,18 @@
     width: 100%;
   }
 }
+/*.............SCROLL REVEAL..................*/
+.reveal {
+  transform: translateY(150px);
+  opacity: 0;
+}
+
+.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
+  transition: transform 700ms ease-in-out, opacity 2s ease-in-out;
+}
+
 *, body, html {
   box-sizing: border-box;
   margin: 0;
